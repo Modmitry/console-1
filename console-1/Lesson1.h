@@ -1,8 +1,8 @@
-#include <iostream>
 #pragma once
+#include <iostream>
 using namespace std;
 
-void les24_emb()
+void run()
 {
 	setlocale(LC_ALL, "Rus");
 
@@ -13,17 +13,13 @@ void les24_emb()
 	cin >> b;
 
 
-	for (int w = 1; w <= a; w++)
+	for (int i = 1; i <= a; i++)
 	{
 
-		for (int i = 1; i <= b; i++)
+		for (int j = 1; j <= b; j++)
 		{
-			cout << "*";
-			if (i == b)
-			{
-				cout << "\n";
-				break;
-			}
+			cout << "*";	
 		}
+		cout << endl;
 	}
 }
