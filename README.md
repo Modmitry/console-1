@@ -5,5 +5,5 @@ It has 2 purposes:
 
 Description:
 
-1)Lesson1 - training 2 cycles (external and internal).
-2)Lesson27 - training arrays.
+1.Lesson1 - training 2 cycles (external and internal).
+2.Lesson27 - training arrays.
