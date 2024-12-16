@@ -4,3 +4,4 @@
 #  2) Improve CI/CD skills as a devops engineer for dm_mol
 #  3) Lesson27 (just training arrays)
 #  4) Lesson28 (sizeof)
+#  5) Lesson29 (rand/srand/srand time null)
