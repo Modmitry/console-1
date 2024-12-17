@@ -32,5 +32,8 @@
     <ClInclude Include="Lesson29.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HW7_random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

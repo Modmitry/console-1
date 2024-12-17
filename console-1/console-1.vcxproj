@@ -130,6 +130,7 @@
     <ClCompile Include="console-1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HW7_random.h" />
     <ClInclude Include="Lesson1.h" />
     <ClInclude Include="Lesson27.h" />
     <ClInclude Include="Lesson28.h" />
