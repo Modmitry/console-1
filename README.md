@@ -5,4 +5,4 @@
 #  3) Lesson27 (just training arrays)
 #  4) Lesson28 (sizeof)
 #  5) Lesson29 (rand/srand/srand time null)
-#  6)Homework 7, random UNIQE numbers
+#  6)Homework 7, random UNIQE numbers 1
