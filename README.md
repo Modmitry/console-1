@@ -10,3 +10,5 @@ Description:
 3) Lesson28 - training sizeof
 4) Lesson29 - training rand/srand
 5) Homework7 - create a randomizer
+6) 24-12-20_upd.Homework7 - add an another solution
+7) 24-12-20_Homework8 - create a randomizer + find a MIN value

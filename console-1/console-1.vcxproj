@@ -131,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Homework7.h" />
+    <ClInclude Include="Homework8.h" />
     <ClInclude Include="Lesson1.h" />
     <ClInclude Include="Lesson27.h" />
     <ClInclude Include="Lesson28.h" />
