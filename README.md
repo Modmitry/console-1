@@ -12,3 +12,5 @@ Description:
 5) Homework7 - create a randomizer
 6) 24-12-20_upd.Homework7 - add an another solution
 7) 24-12-20_Homework8 - create a randomizer + find a MIN value
+8) 24-12-22_Lesson_31 - 2D_array_training1_initial
+9) 24-12-22_Lesson_32 - 2D_array_training2_cycle
