@@ -6,8 +6,6 @@ using namespace std;
 
 void run()
 {
-	setlocale(LC_ALL, "Rus");
-
 	const int ROWS = 2;
 	const int COLS = 4;
 
@@ -16,7 +14,4 @@ void run()
 		{3,65,22,5},
 		{721,44,76,26}
 	};
-
-
-
 }

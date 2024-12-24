@@ -8,10 +8,8 @@ using namespace std;
 
 /*void run()
 {
-	setlocale(LC_ALL, "Rus");
-
-	srand(time(NULL)); /* Возвращает текущее время в секундах, начиная с 1 января 1970 года(так называемое UNIX - время).
-						Это значение используется как уникальный "seed", чтобы случайные числа каждый раз начинались с новой последовательности.
+	srand(time(NULL)); /* Returns the current time in seconds, starting from January 1, 1970 (the so-called UNIX time).
+						This value is used as a unique "seed" so that the random numbers start from a new sequence each time.
 	int const SIZE = 10;
 	int arr[SIZE];
 
@@ -21,11 +19,11 @@ using namespace std;
 		
 		while (true)
 		{
-			num = rand() % 21; /* Знак % - это операция деления по модулю, в данном случае будут генериться числа от 0 до 20.
+			num = rand() % 21; /* The % sign is a modulo division operation, in this case, numbers from 0 to 20 will be generated.
 			
 			bool isDuplicate = false;
 			for (int j = 0; j < i; j++)
-			{ // i — текущий индекс
+			{ // i — current index
 				if (arr[j] == num)
 				{
 					isDuplicate = true;
@@ -33,8 +31,8 @@ using namespace std;
 				}
 			}
 
-			if (isDuplicate == false) { // Если число уникальное
-				arr[i] = num;   // Добавляем в массив
+			if (isDuplicate == false) { // If number is uniqe
+				arr[i] = num;   // Added to array
 				break;
 
 				}
@@ -46,21 +44,16 @@ using namespace std;
 	{
 		cout << arr[i] << endl;
 	}
-
-
-
 }*/
 
 
-//Далее вариант решения от автора курса
+//Next is a solution from the author of the course
 
 
 void run()
 {
-	setlocale(LC_ALL, "Rus");
-
-	srand(time(NULL)); /* Возвращает текущее время в секундах, начиная с 1 января 1970 года(так называемое UNIX - время).
-						Это значение используется как уникальный "seed", чтобы случайные числа каждый раз начинались с новой последовательности.*/
+	srand(time(NULL)); /* Returns the current time in seconds, starting from January 1, 1970 (the so-called UNIX time).
+						This value is used as a unique "seed" so that the random numbers start from a new sequence each time.*/
 	int const SIZE = 10;
 	int arr[SIZE];
 
@@ -86,8 +79,6 @@ void run()
 			arr[i] = newRandomValue;
 			i++;
 		}
-
-		
 	}
 
 
@@ -95,7 +86,5 @@ void run()
 	{
 		cout << arr[i] << endl;
 	}
-
-
 
 }

@@ -8,10 +8,10 @@ using namespace std;
 
 void run()
 {
-	setlocale(LC_ALL, "Rus");
+	
 
-	srand(time(NULL)); /* Возвращает текущее время в секундах, начиная с 1 января 1970 года(так называемое UNIX - время).
-						Это значение используется как уникальный "seed", чтобы случайные числа каждый раз начинались с новой последовательности.*/
+	srand(time(NULL)); /* Returns the current time in seconds, starting from January 1, 1970 (the so-called UNIX time).
+						This value is used as a unique "seed" so that the random numbers start from a new sequence each time.*/
 	int const SIZE = 10;
 	int arr[SIZE];
 
@@ -49,16 +49,18 @@ void run()
 	}
 
 
-	int min = arr[0]; // Пусть первый элемент минимальный
+	int min = arr[0]; // Let's start with the smallest element.
 
-	for (int i = 1; i < SIZE; i++)	// Цикл со второго элемента
+
+	for (int i = 1; i < SIZE; i++)	// Cycle from the second element
+
 	{ 
-		if (arr[i] < min) {          // Если текущий элемент меньше
-			min = arr[i];            // Обновляем значение минимального
+		if (arr[i] < min) {          // If the current element is smaller
+			min = arr[i];            // Updating the minimum value
 		}
 	}
 
-	cout << "Наименьшее число: " << min << endl; // Выводим результ
+	cout << "The smallest number: " << min << endl; // Output the result
 
 
 }
