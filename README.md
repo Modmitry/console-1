@@ -10,3 +10,8 @@ Description:
 3) Lesson28 - training sizeof
 4) Lesson29 - training rand/srand
 5) Homework7 - create a randomizer
+6) 24-12-20_upd.Homework7 - add an another solution
+7) 24-12-20_Homework8 - create a randomizer + find a MIN value
+8) 24-12-22_Lesson31 - 2D_array_training1_initial
+9) 24-12-22_Lesson32 - 2D_array_training2_cycle
+10)24-12-23_Lesson33 - Functions_les1

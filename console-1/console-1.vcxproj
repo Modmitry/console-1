@@ -131,10 +131,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Homework7.h" />
+    <ClInclude Include="Homework8.h" />
     <ClInclude Include="Lesson1.h" />
     <ClInclude Include="Lesson27.h" />
     <ClInclude Include="Lesson28.h" />
     <ClInclude Include="Lesson29.h" />
+    <ClInclude Include="Lesson33.h" />
+    <ClInclude Include="Lesson_31.h" />
+    <ClInclude Include="Lesson_32.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

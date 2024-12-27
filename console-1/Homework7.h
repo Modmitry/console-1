@@ -1,17 +1,16 @@
 #pragma once
 #include <iostream>
+#include <ctime>
 using namespace std;
 
 //rand/srand
 //Задание: создать массив на 10 чисел, диапазон чисел от 0 до 20, НО, ВАЖНО, числа не должны повторяться
 
-void run()
+/*void run()
 {
-	setlocale(LC_ALL, "Rus");
-
-	srand(time(NULL)); /* Возвращает текущее время в секундах, начиная с 1 января 1970 года(так называемое UNIX - время).
-						Это значение используется как уникальный "seed", чтобы случайные числа каждый раз начинались с новой последовательности.*/
-	int const SIZE = 12;
+	srand(time(NULL)); /* Returns the current time in seconds, starting from January 1, 1970 (the so-called UNIX time).
+						This value is used as a unique "seed" so that the random numbers start from a new sequence each time.
+	int const SIZE = 10;
 	int arr[SIZE];
 
 	for (int i = 0; i < SIZE; i++)
@@ -20,11 +19,11 @@ void run()
 		
 		while (true)
 		{
-			num = rand() % 21; /* Знак % - это операция деления по модулю, в данном случае будут генериться числа от 0 до 20.*/
+			num = rand() % 21; /* The % sign is a modulo division operation, in this case, numbers from 0 to 20 will be generated.
 			
 			bool isDuplicate = false;
 			for (int j = 0; j < i; j++)
-			{ // i — текущий индекс
+			{ // i — current index
 				if (arr[j] == num)
 				{
 					isDuplicate = true;
@@ -32,8 +31,8 @@ void run()
 				}
 			}
 
-			if (isDuplicate == false) { // Если число уникальное
-				arr[i] = num;   // Добавляем в массив
+			if (isDuplicate == false) { // If number is uniqe
+				arr[i] = num;   // Added to array
 				break;
 
 				}
@@ -45,7 +44,47 @@ void run()
 	{
 		cout << arr[i] << endl;
 	}
+}*/
 
 
+//Next is a solution from the author of the course
+
+
+void run()
+{
+	srand(time(NULL)); /* Returns the current time in seconds, starting from January 1, 1970 (the so-called UNIX time).
+						This value is used as a unique "seed" so that the random numbers start from a new sequence each time.*/
+	int const SIZE = 10;
+	int arr[SIZE];
+
+	bool alreadyThere;
+
+	for (int i = 0; i < SIZE; )
+	{
+		alreadyThere = false;
+		int newRandomValue = rand() % 20;
+
+		for (int j = 0; j < i; j++)
+
+		{
+			if (arr[j] == newRandomValue)
+			{
+				alreadyThere = true;
+				break;
+			}
+		}
+
+		if (!alreadyThere)
+		{
+			arr[i] = newRandomValue;
+			i++;
+		}
+	}
+
+
+	for (int i = 0; i < SIZE; i++)
+	{
+		cout << arr[i] << endl;
+	}
 
 }
