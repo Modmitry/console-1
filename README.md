@@ -19,3 +19,4 @@ Description:
 12) 24-12-30_Lesson35 - functions, arguement's transfer, part2
 13) 24-12-30_Lesson36 - functions, prototypes
 14) 24-12-31_Lesson37 - field of view, global & local variable
+15) 25-01-07_Lesson38 - default arguments (options) + question 4 Dmitry

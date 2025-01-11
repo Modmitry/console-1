@@ -141,6 +141,7 @@
     <ClInclude Include="Lesson35.h" />
     <ClInclude Include="Lesson36.h" />
     <ClInclude Include="Lesson37.h" />
+    <ClInclude Include="Lesson38.h" />
     <ClInclude Include="Lesson_31.h" />
     <ClInclude Include="Lesson_32.h" />
   </ItemGroup>
